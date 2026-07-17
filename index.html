@@ -42,6 +42,7 @@
                 <div class="flex gap-4">
                     <a href="#about" class="transition-colors hover:text-emerald-600 dark:hover:text-emerald-400">About</a>
                     <a href="#experience" class="transition-colors hover:text-emerald-600 dark:hover:text-emerald-400">Experience</a>
+                    <a href="#case-studies" class="transition-colors hover:text-emerald-600 dark:hover:text-emerald-400">Case Studies</a>
                     <a href="#projects" class="transition-colors hover:text-emerald-600 dark:hover:text-emerald-400">Projects</a>
                     <a href="#skills" class="transition-colors hover:text-emerald-600 dark:hover:text-emerald-400">Skills</a>
                 </div>
@@ -69,7 +70,7 @@
                     I'm Chinelo Grace <br class="hidden md:block"/> Chigozie.
                 </h1>
                 <h2 class="text-2xl font-light text-slate-600 dark:text-slate-400">
-                    Technical Automation Strategist &amp; <span class="font-medium text-emerald-600 dark:text-emerald-400">Python Developer</span>
+                    Systems Architect &amp; Technical PA for Founders &mdash; <span class="font-medium text-emerald-600 dark:text-emerald-400">Building Autonomous Systems</span>
                 </h2>
                 <p class="text-lg leading-relaxed max-w-2xl text-slate-600 dark:text-slate-400">
                     Specialising in building autonomous workflows, custom business utilities, and media production pipelines. 
@@ -263,6 +264,146 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Systems Architecture & Case Studies Section -->
+        <section id="case-studies" class="space-y-8">
+            <div class="flex items-center gap-3 border-b pb-4 border-slate-200 dark:border-slate-800">
+                <i data-lucide="layers" class="text-emerald-500 w-7 h-7"></i>
+                <h3 class="text-3xl font-bold text-slate-900 dark:text-white">Systems Architecture &amp; Case Studies</h3>
+            </div>
+
+            <div class="border-l-2 border-emerald-500/30 pl-6 py-4 bg-slate-50/50 dark:bg-slate-900/50 rounded-r-lg mb-8">
+                <p class="text-sm font-mono text-emerald-600 dark:text-emerald-400 mb-2">$ cat systems_audit.md</p>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Each case study follows a diagnostic pattern: identify the bottleneck, audit the current state, then architect the solution. 
+                    The result is always the same&mdash;remove the human from the loop.
+                </p>
+            </div>
+
+            <!-- Case Studies Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Case Study 1: Retail Utility Operations -->
+                <div class="border rounded-xl p-6 transition-all duration-300 bg-white border-slate-200 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/5 dark:bg-slate-900 dark:border-slate-800 dark:hover:border-emerald-500/50">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xs font-mono px-2 py-1 rounded bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">CASE_01</span>
+                        <span class="text-xs text-slate-500 dark:text-slate-500">Retail Utility Operations</span>
+                    </div>
+                    
+                    <div class="space-y-5">
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2 flex items-center gap-2">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i> The Bottleneck
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                A retail storefront was relying on a manual physical logbook and fragmented calculations for customer loyalty and refill tracking, causing transaction delays and human error.
+                            </p>
+                        </div>
+                        
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="search" class="w-3 h-3"></i> The Audit
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Mapped the customer loop and identified that manual data entry was completely redundant. Realized the entire logbook could be bypassed.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="cpu" class="w-3 h-3"></i> The Architecture
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Designed and deployed a custom, automated web-based calculator and an API-ready digital tracking system. Eliminated manual entry entirely and optimized the transaction speed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 2: Logistics Tracking Prototype -->
+                <div class="border rounded-xl p-6 transition-all duration-300 bg-white border-slate-200 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/5 dark:bg-slate-900 dark:border-slate-800 dark:hover:border-emerald-500/50">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xs font-mono px-2 py-1 rounded bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">CASE_02</span>
+                        <span class="text-xs text-slate-500 dark:text-slate-500">Logistics Tracking Prototype</span>
+                    </div>
+                    
+                    <div class="space-y-5">
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2 flex items-center gap-2">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i> The Bottleneck
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                A regional tech event's logistics and recovery procedures were chaotic, relying on manual announcements and human oversight to update participants.
+                            </p>
+                        </div>
+                        
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="search" class="w-3 h-3"></i> The Audit
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Analyzed the communication flow and spotted that human intervention in routine updates was the primary bottleneck slowing down information delivery.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="cpu" class="w-3 h-3"></i> The Architecture
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Removed the human element from routine updates by engineering an autonomous Telegram bot integrated directly with Google Sheets to handle all logistics announcements in real-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Study 3: Media Production Pipeline -->
+                <div class="border rounded-xl p-6 transition-all duration-300 bg-white border-slate-200 hover:border-emerald-500/50 hover:shadow-lg hover:shadow-emerald-500/5 dark:bg-slate-900 dark:border-slate-800 dark:hover:border-emerald-500/50">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xs font-mono px-2 py-1 rounded bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">CASE_03</span>
+                        <span class="text-xs text-slate-500 dark:text-slate-500">Media Production Pipeline</span>
+                    </div>
+                    
+                    <div class="space-y-5">
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-red-500 mb-2 flex items-center gap-2">
+                                <i data-lucide="alert-circle" class="w-3 h-3"></i> The Bottleneck
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                A digital media channel was burning excessive hours on manual audio stitching, silence removal, and standard video rendering.
+                            </p>
+                        </div>
+                        
+                        <div class="border-b border-dashed border-slate-200 dark:border-slate-800 pb-4">
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="search" class="w-3 h-3"></i> The Audit
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Audited the editing workflow and realized traditional editing software was the bottleneck. The process was predictable enough to be entirely programmatic.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-2">
+                                <i data-lucide="cpu" class="w-3 h-3"></i> The Architecture
+                            </h4>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Built a zero-touch programmatic pipeline using Python and FFmpeg. The system automatically processes raw audio, removes silence, and batch-renders long-form video assets without any manual software editing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terminal-style footer -->
+            <div class="border-t border-slate-200 dark:border-slate-800 pt-6 mt-8">
+                <p class="text-xs font-mono text-slate-500 dark:text-slate-500">
+                    <span class="text-emerald-500">$</span> systems_audit --summary<br>
+                    <span class="ml-4 text-emerald-500">→</span> Bottleneck identified. Audit complete. Architecture deployed.<br>
+                    <span class="ml-4 text-emerald-500">→</span> 3 systems automated. Human error eliminated. Loop closed.
+                </p>
             </div>
         </section>
 
